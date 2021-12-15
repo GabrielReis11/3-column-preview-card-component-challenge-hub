@@ -1,0 +1,145 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 1440px;
+}
+
+.card{
+    width: 918px;
+    display: flex;
+    margin-top: 170px;
+    margin-left: 261px;
+}
+
+.sedan{
+    width: 194px;
+    height: 450px;
+    background-color: #E28525;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 50px;
+    padding-right: 62px;
+    padding-top: 50px;
+}
+
+.suv{
+    width: 194px;
+    height: 450px;
+    background-color: #016972;
+    padding-left: 50px;
+    padding-right: 62px;
+    padding-top: 50px;
+}
+
+.luxur{
+    width: 194px;
+    height: 450px;
+    background-color: #00403F;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 50px;
+    padding-right: 62px;
+    padding-top: 50px;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 45px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400; 
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 28px;
+    width: 210px;
+}
+
+.learn{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    width: 150PX;
+    height: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.lm1{
+    color: #E28525;
+    border-radius: 25px;
+    position: relative;
+    width: 99%;
+    height: 78%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.lm2{
+    color: #016972;
+    border-radius: 25px;
+    position: relative;
+    width: 99%;
+    height: 78%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.lm3{
+    color: #00403F;
+    border-radius: 25px;
+    position: relative;
+    width: 99%;
+    height: 78%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.learn:hover{
+    background-color: transparent;
+}
+
+.lm1:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+.lm2:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+.lm3:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+@media (max-width: 375px){
+
+    body{
+        display: flex;
+    }
+    .card{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sedan{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius:10px ;
+    }
+
+    .luxur{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius:10px ;
+    }
+
+    .learn{
+        position: relative;
+        bottom: 50px;
+    }
+}
