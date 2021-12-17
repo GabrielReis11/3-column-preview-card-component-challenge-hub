@@ -45,7 +45,7 @@ h2{
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     color: hsl(0, 0%, 95%);
-    font-size: 45px;
+    font-size: 38px;
 }
 
 p{
@@ -53,7 +53,7 @@ p{
     font-weight: 400; 
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
-    line-height: 28px;
+    line-height: 22px;
     width: 210px;
 }
 
@@ -63,17 +63,18 @@ p{
     width: 150PX;
     height: 50px;
     position: relative;
-    top: 30px;
+    bottom: 50px;
+    top: 80px;
 }
 
 .lm1{
     color: #E28525;
     border-radius: 25px;
     position: relative;
-    width: 99%;
+    width: 100%;
     height: 78%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 14px;
 }
 
 
@@ -81,20 +82,20 @@ p{
     color: #016972;
     border-radius: 25px;
     position: relative;
-    width: 99%;
+    width: 100%;
     height: 78%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .lm3{
     color: #00403F;
     border-radius: 25px;
     position: relative;
-    width: 99%;
+    width: 100%;
     height: 78%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .learn:hover{
@@ -104,16 +105,22 @@ p{
 .lm1:hover{
     color: white;
     border: 1px solid white;
+    width: 150px;
+    height: 32px;
 }
 
 .lm2:hover{
     color: white;
     border: 1px solid white;
+    width: 150px;
+    height: 32px;
 }
 
 .lm3:hover{
     color: white;
     border: 1px solid white;
+    width: 150px;
+    height: 32px;
 }
 
 @media (max-width: 375px){
